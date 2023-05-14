@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKWAABA TOURS</title>
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rosario:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- #HEADER -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <!-- This is the logo for our website -->
+            <a href="#" class="logo">AKWAABA TOURS</a>
+
+            <nav class="navbar" data-navbar>
+
+                <!-- Here we are inserting an icon button -->
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <!-- We are defining the nav-bar items using a list -->
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about_us" class="navbar-link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery" class="navbar-link">Gallery</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact_us" class="navbar-link">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+    <!-- The main section will be the main content of our website -->
+    <main>
+        <article>
+
+
+            <!-- #HERO SECTION -->
+            <!-- The hero section is where our visitors will land when get load our website -->
+            <section class="section hero">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <h1 class="h1 hero-title">
+                            Come to life or
+                            <span class="span"> Call it a dream.</span>
+                        </h1>
+
+                        <p class="section-text">
+                            Ghana has 16 regions. The Northern, Ashanti & Brong Ahafo, Eastern, Central, Western, Accra,
+                            Ada, and Akosombo/Volta Regions are the most popular and have the most developed tourist
+                            sites and accommodations. Visitors and travelers who wish to visit any of these amazing
+                            places for business or during the holiday season can schedule a single or multi-day regional
+                            tour with us.
+
+                        </p>
+
+                        <!-- This is a link and also a call-to-action (CTA) -->
+                        <a href="#" class="btn">
+                            <span class="span">Tour With Us</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                    <!-- This will be our wrapper for the website which also contain our hero images -->
+                    <div class="wrapper">
+                        <div class="hero1 img-holder" style="--width: 400; --height: 500;">
+
+                            <!-- Please we will insert an image here -->
+                            <img src="images/hero-1.jpg" alt="a view of a tourist site" width="400" height="550"
+                                class="img-cover" loading="lazy">
+                        </div>
+
+                        <div class="Canopy img-holder" style="--width: 500; --height: 850;">
+
+                            <!-- Please we will insert an image here -->
+                            <img src="images/hero-2.jpg" alt="a view of a nice outskirt" width="500" height="850"
+                                class="img-cover" loading="lazy">
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- #ABOUT SECTION -->
+            <!-- The section simply let our visitors get to more what we stand for -->
+
+            <section class="section about" id="about_us">
+
+                <div class="container">
+
+                    <div class="wrapper">
+                        <figure class="about-banner about-banner-1 img-holder" style="--width: 600; --height: 480;">
+                            <img src="images/about-1.jpg" width="600" height="480" alt="people in our tourism site"
+                                class="img-cover" loading="lazy">
+                        </figure>
+
+                        <h2 class="h2 section-title">Life explorers since the 90's</h2>
+                    </div>
+
+                    <figure class="about-banner about-banner-2 img-holder" style="--width: 500; --height: 700;">
+                        <img src="images/about-2.jpg" width="500" height="700" alt="a person enjoying the place"
+                            loading="lazy">
+                    </figure>
+
+                    <div class="about-content">
+
+                        <h3 class="h2 section-title">We Live life and Explore places!!</h3>
+
+                        <p class="section-text">
+                            We believe life's little pleasures come in the little things that become big. Exploring
+                            places gives you the pleasure of gaining new experiences from the new things you discover.
+                            These discoveries from our side we term them "life's little treasures". These treasure add
+                            on to your life and in turn, helps you to achieve living a purposeful and fulfilled life.
+                            Tour with us, Live life, and Explore places.
+                        </p>
+
+                        <a href="#" class="btn">
+                            <span class="span">Find out more</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                        <figure class="about-banner about-banner-3 img-holder" style="--width: 850; --height: 450;">
+                            <img src="images/about-3.jpg" width="850" height="420" alt="an action picture"
+                                class="img-cover" loading="lazy">
+                        </figure>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- #TOURISM COLLECTION SECTION -->
+            <!-- The section allows to display the top most features -->
+
+            <section class="section collection text-center">
+
+                <div class="container">
+
+                    <h2 class="h2 section-title">
+                        Top Most Features
+                    </h2>
+
+                    <p class="section-text">
+                        Amazing Places to Tour and have wonderful experiences.
+                    </p>
+
+                    <!-- We want our top most collection to be in a grid view -->
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="collection-card">
+
+                                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                                    <img src="images/collection-1.jpg" width="500" height="550"
+                                        alt="One of our best tourist sites who got featured in our top most features"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-content">
+                                        Kakum National Park
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Would you believe this national park was established by the initiative of the
+                                        locals and not by the state of deparment responsible for wildlife preservation?
+                                        Well you better believe it! As part of one of only 3 locations in Africa with a
+                                        canopy walk-way over a thick forest- connecting seven tree tops and providing
+                                        access to the thick forest, Kakum National Park is the place to be. Located in
+                                        the central region of Ghana close to the coast so more site seeing on your way
+                                        there!!
+                                    </p>
+
+                                    <a href="https://en.wikipedia.org/wiki/Kakum_National_Park" target="#" class="btn">
+                                        <span class="span">Explore</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card">
+
+                                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                                    <img src="images/collection-2.jpg" width="500" height="550"
+                                        alt="the second of our best tourist sites who got featured in our top most features"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-content">
+                                        Larabanga Mosque
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Do you love architecture or take pictures of building because they look
+                                        beautiful? Tired of the south of Ghana, want to enjoy some heat and explore the
+                                        northern part of Ghana? Then Larabanga close to Damongo is the place to be. This
+                                        town holds the oldest mosque - LARABANGA MOSQUE in the country and one in West
+                                        Africa,with a Sudanese architectural design and referred to as the Mecca of
+                                        Africa, you really do need to see this beautiful masterpiece. </p>
+
+                                    <a href="https://en.wikipedia.org/wiki/Larabanga_Mosque" target="#" class="btn">
+                                        <span class="span">Explore</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card">
+
+                                <figure class="card-banner img-holder" style="--width: 500; --height: 550;">
+                                    <img src="images/collection-3.jpg" width="500" height="550"
+                                        alt="One of our best tourist sites who got featured in our top most features"
+                                        class="img-cover" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-content">
+                                        Aburi Botanical Gardens
+                                    </h3>
+
+                                    <p class="card-text">
+                                        You love plants, you love great scenery, you enjoy cool weather and love nature,
+                                        then this is the place to be. About 45 mins drive from Kotoka International
+                                        airport and not too far from Greater Accra, you head towards the mountains to
+                                        land in this beautiful botanical garden - home to over 1000 plant species. Come
+                                        learn about how this garden played an important role in encouraging cocoa
+                                        production in the south of Ghana and also enjoy the beautiful landscape and
+                                        weather.
+                                    </p>
+
+                                    <a href="https://en.wikipedia.org/wiki/Aburi_Botanical_Gardens" target="#" class="btn">
+                                        <span class="span">Explore</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- #VIDEO FEATURE SECTION -->
+            <!-- The section allows to display one video. Let's use a video of a waterfall-->
+
+            <section class="feature">
+
+                <div class="feature-banner has-bg-image has-after"
+                    style="background-image: url('images/waterfall.jpg')">
+
+                    <button class="play-btn">
+
+                        <a href="https://www.youtube.com/watch?v=XSJ8VzE7TOE" target="#">
+                            <img src="images/play.svg" width="60" height="60" alt="play icon" loading="lazy">
+                        </a>
+                    </button>
+                </div>
+
+                <div class="section feature-content">
+                    <div class="container">
+
+                        <h2 class="h2 section-title">
+                            Passionate about resting during my holidays in amazing places
+                        </h2>
+
+                        <p class="section-text">
+                            Just give a a feeling of person and how he or she enjoys the amazing nature we have around
+                            our sites. It can also be a review our customers left.
+                        </p>
+
+                        <ul class="feature-list">
+
+                            <li>
+                                <div class="feature-list-card">
+
+                                    <div class="card-icon">
+                                        <img src="images/feature-icon-1.svg" width="45" height="45" alt="review icon"
+                                            loading="lazy">
+                                    </div>
+
+                                    <div>
+                                        <h3 class="h4 card-title">
+                                            100% Exploring, No GIMMICK!!
+                                        </h3>
+
+                                        <p class="card-text">
+                                            We guarantee that you would enjoy touring and exploring with us. No boring
+                                            tour rides or tour talk.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="feature-list-card">
+
+                                    <div class="card-icon">
+                                        <img src="images/feature-icon-2.svg" width="45" height="45" alt="badge icon"
+                                            loading="lazy">
+                                    </div>
+
+                                    <div>
+                                        <h3 class="h4 card-title">
+                                            Professional Tour Guide
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Educated, well-trained, professional and above all entertaining tour guides
+                                            ready to explore with you.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="feature-list-card">
+
+                                    <div class="card-icon">
+                                        <img src="images/feature-icon-3.svg" width="45" height="45" alt="money bag icon"
+                                            loading="lazy">
+                                    </div>
+
+                                    <div>
+                                        <h3 class="h4 card-title">
+                                            Affordable Price
+                                        </h3>
+
+                                        <p class="card-text">
+                                            We have something for every pocket. Don't let your pocket stop you from
+                                            enjoying life's little pleasure. Remember LIVE LIFE!
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <p>
+                            A live view of our tourist waterfalls attraction
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- #TESTIMONIAL SECTION -->
+            <!-- The section allows to display a testimonial -->
+
+            <section class="section testi">
+                <div class="container">
+
+                    <div class="testi-card">
+
+                        <p class="card-text">
+                            Tired from the daily hustle and bustle, I was ready to move away from everything and relax.
+                            Planning a trip on my own looked daunting until I reached out to Akwaaba tours. These guys
+                            are amazing as they will curate the best exploration for you. Infact I recommend Akwaaba
+                            tours to every one looking to explore Ghana.
+                        </p>
+
+                        <p class="client-name">Mr. Joy Sey</p>
+
+                        <p class="client-title">A Business Man</p>
+
+                        <img src="images/quote.svg" width="50" height="50" loading="lazy" class="icon" alt="quote">
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- #GALLERY SECTION -->
+            <!-- The section allows to display our pictures -->
+
+            <section class="gallery" id="gallery">
+
+                <ul class="gallery-list">
+
+                    <li>
+                        <div class="gallery-card has-bg-image has-after"
+                            style="background-image: url('images/gallery-1.jpeg')">
+                            <div class="card-content">
+
+                                <h3 class="h3 card-title">Wli waterfalls</h3>
+
+                                <a href="https://www.google.com/search?q=wlifalls+in+ghana+images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiBktKy94P8AhUtg_0HHavhDJUQ_AUoAXoECAEQAw" target="#" class="btn-link">
+                                    <span class="span">View Gallery</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="gallery-card has-bg-image has-after"
+                            style="background-image: url('images/gallery-2.png')">
+                            <div class="card-content">
+
+                                <h3 class="h3 card-title">Mountain Afadjato</h3>
+
+                                <a href="https://www.google.com/search?q=mountain+afadjato+ghana+images&tbm=isch&ved=2ahUKEwjLjOy194P8AhWo6rsIHRj3AlQQ2-cCegQIABAA&oq=mountain+afadjato+ghana+images&gs_lcp=CgNpbWcQAzoICAAQCBAHEB5QgRhYjj9gwENoAHAAeACAAc4CiAG_HZIBBzAuOS44LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Km6fY8vPCqjV7_UPmO6LoAU" target="#" class="btn-link">
+                                    <span class="span">View Gallery</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="gallery-card has-bg-image has-after"
+                            style="background-image: url('images/gallery-3.jpg')">
+                            <div class="card-content">
+
+                                <h3 class="h3 card-title">Elmina Castle</h3>
+
+                                <a href="https://www.google.com/search?q=elimina+castle+ghana+images&tbm=isch&ved=2ahUKEwiUwb_r94P8AhXWhf0HHWZiCTUQ2-cCegQIABAA&oq=elimina+castle+ghana+images&gs_lcp=CgNpbWcQA1D4BliQD2CkE2gAcAB4AIABvwGIAesFkgEDMC40mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=mm6fY5SMKtaL9u8P5sSlqAM" target="#" class="btn-link">
+                                    <span class="span">View Gallery</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="gallery-card has-bg-image has-after"
+                            style="background-image: url('images/gallery-4.jpg')">
+                            <div class="card-content">
+
+                                <h3 class="h3 card-title">Shai hills</h3>
+
+                                <a href="https://www.google.com/search?q=shai+hills+ghana+images&tbm=isch&ved=2ahUKEwiuxLDw94P8AhWJ9rsIHcEqDIUQ2-cCegQIABAA&oq=shai+hills+ghana+images&gs_lcp=CgNpbWcQA1C-CFiBKWC6KmgCcAB4AIAB1wGIAbkSkgEFMC43LjWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=pG6fY67iOInt7_UPwdWwqAg" target="#" class="btn-link">
+                                    <span class="span">View Gallery</span>
+
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+
+
+
+
+            <!-- #FOOTER -->
+
+            <footer class="footer">
+                <div class="container" id="contact_us">
+
+                    <div class="section footer-top">
+
+                        <div class="footer-brand">
+
+                            <a href="#" class="logo">AKWAABATOURS</a>
+
+                            <p class="footer-text">
+                                Visitors and travelers who wish to visit any of these amazing
+                                places for business or during the holiday season can schedule a single or multi-day
+                                regional
+                                tour with us.
+                            </p>
+
+                            <ul class="social-list">
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-youtube"></ion-icon>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <ul class="footer-list">
+
+                            <li>
+                                <p class="footer-list-title">Explore Us</p>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Most viewed</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Features</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">News and Updates</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="footer-list">
+
+                            <li>
+                                <p class="footer-list-title">Support</p>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Services</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Feedback</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Support Center</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Our Sites</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="footer-list">
+
+                            <p class="footer-list-title">Get in Touch</p>
+
+                            <p class="footer-text">
+                                Question or feedback?
+                                We’d love to hear from you
+                            </p>
+
+                            <a href="#" class="btn">
+                                <span class="span">Contact Us</span>
+
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="footer-bottom">
+
+                        <p class="copyright">
+                            Copyright 2022 Team Alpha - Kibo School. All Right Reserved
+                        </p>
+
+                    </div>
+
+                </div>
+            </footer>
+
+        </article>
+    </main>
+
+
+    <!--- cursor ---->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Custom JS Link -->
+    <script src="script.js"></script>
+
+    <!-- Icons Link -->
+    <!-- This link is where we will be fetching all of our icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
